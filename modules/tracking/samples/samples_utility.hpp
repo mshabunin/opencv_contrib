@@ -3,6 +3,7 @@
 
 #include <opencv2/tracking.hpp>
 #include <opencv2/tracking/tracking_legacy.hpp>
+#include <opencv2/dnn_algorithms.hpp>
 
 inline cv::Ptr<cv::Tracker> createTrackerByName(const std::string& name)
 {

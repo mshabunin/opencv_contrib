@@ -13,6 +13,7 @@ ocv_define_module(tracking
     ${debug_modules}
     OPTIONAL
       opencv_dnn
+      opencv_dnn_algorithms
       opencv_datasets
       opencv_highgui
     WRAP
